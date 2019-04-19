@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./static/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./static/img/favicon.png">
+  <title>
+    ScribbleIt!
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="./static/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="./static/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./static/demo/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+  <style>
+
+.center {
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+
+@font-face {
+  font-family: roboto;
+  src: url(./static/fonts/Roboto.ttf);
+}
+
+p{
+  font-size: 25px;
+}
+
+h1, #h11{
+font-family: 'roboto';
+font-weight:normal;
+font-style:normal;
+font-size : 4rem;
+}
+
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height : 300px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card11:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container11 {
+  padding: 2px 16px;
+}
+  
+  .typewriter h1 {
+			overflow: hidden; /* Ensures the content is not revealed until the animation */
+			border-right: .15em solid orange; /* The typwriter cursor */
+			white-space: nowrap; /* Keeps the content on a single line */
+			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+			letter-spacing: .15em; /* Adjust as needed */
+			animation: 
+			  typing 3.5s steps(40, end),
+			  blink-caret .75s step-end infinite;
+		  }
+		  
+		  /* The typing effect */
+		  @keyframes typing {
+			from { width: 0 }
+			to { width: 100% }
+		  }
+		  
+		  /* The typewriter cursor effect */
+		  @keyframes blink-caret {
+			from, to { border-color: transparent }
+			50% { border-color: orange; }
+		  }
+
+		
+	  
+		  h2 {
+			font-size: 3em;
+			color: white;
+		  }
+		  
+		  span {
+			border-right: .05em solid;
+			animation: caret 1s steps(1) infinite;
+		  }
+		  
+		  @keyframes caret {
+			50% {
+			  border-color: transparent;
+			}
+		  }
+
+
+  
+  </style>
+</head>
+
+<body class="index-page">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://demos.creative-tim.com/blk-design-system/index.html" rel="tooltip" title="Designed and Coded by UnbreakableCode" data-placement="bottom" target="_blank">
+          <span>SCRIBBLE'</span>IT
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a>
+                BLK•
+              </a>
+            </div>
+            <div class="col-6 collapse-close text-right">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav">
+      
+          <li class="nav-item">
+            <a class="nav-link btn btn-default d-none d-lg-block" href="javascript:void(0)">
+              <i class="tim-icons icon-cloud-download-93"></i> Our Team
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="page-header header-filter">
+      <div class="squares square1"></div>
+      <div class="squares square2"></div>
+      <div class="squares square3"></div>
+      <div class="squares square4"></div>
+      <div class="squares square5"></div>
+      <div class="squares square6"></div>
+      <div class="squares square7"></div>
+      <div class="container">
+        <div class="content-center brand">
+          <h1 id="h11">ScribbleIt</h1>
+
+          <h2>Absenteeism is not an excuse.</h2>
+        
+        </div>
+      </div>
+    </div>
+      <!-- End .section-navbars  -->
+      <!-- End Section Tabs -->
+      
+      <!--  end notifications -->
+      <!-- Typography -->
+      <div class="col-md-10 ml-auto col-xl-8 mr-auto">
+        <!-- Tabs with Background on Card -->
+        <div class="card">
+          <div class="card-header">
+            <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#transcriptheader" role="tablist">
+                  Transcripts
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <!-- Tab panes -->
+            <div class="tab-content tab-space">
+              <div class="pl-4  pr-4 tab-pane active" id="transcriptheader">
+                <p>You will see transcripts here!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Tabs on plain Card -->
+      </div>
+      </div>
+        <div class="section">
+          <div class="container">
+            <div class="title">
+            
+            </div>
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-5 mb-5 mb-lg-0 ">
+                <h1 class="text-white font-weight-light">Here's where the magic begins!</h1>
+                <p class="text-white mt-4">Click on the button to start transcripting your conversation!!</p>
+                <button class="btn btn-warning mt-4 mr-4 ml-1" onclick="relayCall()" >Get summary?</button>
+                <button id="changeable" class="btn btn-warning mt-4 mr-4  " onclick="codeopen()" >Start Scribbling!</button>
+              </div>
+              <!-- --HERE-- -->
+              <!-- <div class="col-lg-6 mb-6 mb-lg-0">
+                HELLLOOO
+              </div> -->
+              <!-- --HERE-- -->
+              <!-- <div class="col-lg-6">
+                <div class="card11">
+                  <div class="container11">
+                    <center>
+                      <img src="./static/img/micro.png" alt="Avatar" style="width:50%;text-align: center;padding-top: 20%">
+                    </center>
+                  </div>
+                </div>
+              </div>   -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10 ml-auto col-xl-8 mr-auto">
+        <!-- Tabs with Background on Card -->
+        <div class="card">
+          <div class="card-header">
+            <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#link4" role="tablist">
+                  Text Summary
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <!-- Tab panes -->
+            <div class="tab-content tab-space">
+              <div class="pl-4  pr-4 tab-pane active" id="link4">
+                <p>You will see summary here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Tabs on plain Card -->
+      </div>
+      <div class="center">
+      <div class="section section-signup" style="text-align : center"style="width : 100%;height:30%">
+        <div class="container"style="width : 100%;height:30%">
+            <div class="col-lg-6 mb-lg-auto"style="width : 100%;height:30%;margin-left:26%">
+              <div class="card card-register"style="width : 100%height:30%">
+            
+                <div class="card-footer" style="width : 100%;height:30%">
+                  <center>
+                   <h3>Subscribe to our newsletter for more coverage and information!</h3>
+                   <h4>Enter your email address.</h4>
+                   <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com" style="margin-left:27%"/>
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+                  </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Sart Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+              <h4 class="title title-up">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default">Nice Button</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  End Modal -->
+      <!-- Mini Modal -->
+      <div class="modal fade modal-mini modal-primary modal-mini" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <i class="tim-icons icon-simple-remove text-white"></i>
+              </button>
+              <div class="modal-profile">
+                <i class="tim-icons icon-single-02"></i>
+              </div>
+            </div>
+            <div class="modal-body">
+              <p>Always have an access to your profile</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-link btn-neutral">Back</button>
+              <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Form Modal -->
+      <div class="modal fade modal-black" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <i class="tim-icons icon-simple-remove text-white"></i>
+              </button>
+              <div class="text-muted text-center ml-auto mr-auto">
+                <h3 class="mb-0">Sign in with</h3>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="btn-wrapper text-center">
+                <a href="#" class="btn btn-neutral btn-icon">
+                  <img src="static/img/github.svg">
+                </a>
+                <a href="#" class="btn btn-neutral btn-icon">
+                  <img src="static/img/google.svg">
+                </a>
+              </div>
+              <div class="text-center text-muted mb-4 mt-3">
+                <small>Or sign in with credentials</small>
+              </div>
+              <form role="form">
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="tim-icons icon-email-85"></i>
+                      </span>
+                    </div>
+                    <input class="form-control" placeholder="Email" type="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="tim-icons icon-key-25"></i>
+                      </span>
+                    </div>
+                    <input class="form-control" placeholder="Password" type="password">
+                  </div>
+                </div>
+                <div class="form-check mt-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" checked>
+                    <span class="form-check-sign"></span>
+                    Remember me!
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary my-4">Sign in</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  End Modal -->
+    </div>
+    <footer class="footer"style="text-align: center;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title">ScribbleIt</h1>
+          </div>
+          <!-- <div class="col-md-3">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">
+                  Home
+                </a>
+              </li>
+        
+            </ul>
+          </div> -->
+          <!-- <div class="col-md-3">
+            <ul class="nav">
+              <a href="./index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+      
+              <li class="nav-item">
+                <a href="https://creative-tim.com/about-us" class="nav-link">
+                  About Us
+                </a>
+              </li>
+           
+            </ul>
+          </div> -->
+          <div class="col-md-12" style="text-align: right;">
+            <h3 class="title"style="margin-left:37%" >Made with &hearts; at <a href="https://ecellhbtu.in/" target="_blank">ESummit'19</a></h3>
+            <!-- <div class="btn-wrapper profile">
+              <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="./static/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./static/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./static/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="./static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./static/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./static/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!-- Chart JS -->
+  <script src="./static/js/plugins/chartjs.min.js"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./static/js/plugins/moment.min.js"></script>
+  <script src="./static/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="./static/demo/demo.js"></script>
+  <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./static/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
+  <script>
+
+    $(document).ready(function() {
+      blackKit.initDatePicker();
+      blackKit.initSliders();
+    });
+
+    function scrollToDownload() {
+
+      if ($('.section-download').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-download').offset().top
+        }, 1000);
+      }
+    }
+    var cnt = 0;
+    function relayCall() {
+      $.ajax({
+        url: "/global",
+        type: "get",
+        success: function(response) {
+            console.log('DONEEEEE OPENING RELAY');
+            console.log(response);
+            $('#link4').html(response);
+        },
+        error: function(xhr) {
+          console.log('Some relay error happened');
+          //Do Something to handle error
+        }
+      })
+
+    }
+
+    function codeopen() {
+      if (cnt==0) {
+        document.getElementById('changeable').innerHTML = "Stop Scribbling";
+        cnt = 1;
+        $.ajax({
+          url: "/live",
+          type: "get",
+          data: {jsdata: 'text'},
+          success: function(response) {
+            console.log('DONEEEEE OPENING');
+          },
+          error: function(xhr) {
+            //Do Something to handle error
+          }
+        });
+      }
+      else if(cnt==1) {
+        document.getElementById('changeable').innerHTML = "Start Scribbling!";
+        cnt = 0;
+        $.ajax({
+          url: "/shutdown",
+          type: "get",
+          success: function(response) {
+            console.log('DONEEEEE CLOSING');
+          },
+          error: function(xhr) {
+            //Do Something to handle error
+          },
+          async: false
+        });
+      }
+    }
+    function transitionHelper() {
+      console.log('doing recall');
+      $.ajax({
+        url: "/transcripts",
+        type: "get",
+        success: function(response) {
+          console.log(response);
+          $('#transcriptheader').html(response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+        },
+      });
+    }
+    setInterval("transitionHelper()", 3000);
+  </script>
+
+<script>
+
+document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "Now, miss nothing", "Absenteeism is not an excuse"];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 700);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+
+	</script>
+
+
+</body>
+
+</html>
